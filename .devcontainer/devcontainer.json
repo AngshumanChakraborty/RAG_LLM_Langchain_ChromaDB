@@ -1,0 +1,33 @@
+{
+    "name": "gpuDockerImage",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "remoteUser": "vscode",
+    "workspaceFolder": "/workspaces/mercInterview",
+    "runArgs": [
+        "--gpus",
+        "all",
+        "-it",
+        "--network=host",
+        "--ipc=host",
+        "-p",
+        "8888:8888",
+        "-p",
+        "6006:6006"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        },
+        "settings": {
+            "terminal.integrated.defaultProfile.linux": "bash"
+        }
+    },
+    "postCreateCommand": "python3 -m virtualenv -p python3 --system-site-packages /workspaces/interviewVscodeEnv && source /workspaces/interviewVscodeEnv/bin/activate && /workspaces/interviewVscodeEnv/bin/pip install -U pip setuptools wheel && /workspaces/interviewVscodeEnv/bin/pip install -r /workspaces/mercInterview/requirements.txt && bash"
+}
+
+
+
