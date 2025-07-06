@@ -18,23 +18,3 @@ streamlit
 accelerate
 sentence-transformers
 
-
-
-
-
-
-# langchain-ollama
-# langchain-openai
-# langchainhub
-# langsmith
-# huggingface-hub
-# llama-index
-# bitsandbytes
-# boto3
-# botocore
-# ollama
-# sentence-transformers
-# accelerate
-# matplotlib
-# Flask
-
