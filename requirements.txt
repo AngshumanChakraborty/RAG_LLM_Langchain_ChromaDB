@@ -1,0 +1,40 @@
+chromadb 
+huggingface-hub 
+huggingface_hub[cli]
+langchain 
+langchain-core 
+langchain_community 
+langchain-huggingface 
+langchain-text-splitters 
+langchainhub
+dotenv 
+transformers 
+tokenizers 
+pypdf 
+fastapi 
+faiss-cpu 
+fastembed 
+streamlit 
+accelerate
+sentence-transformers
+
+
+
+
+
+
+# langchain-ollama
+# langchain-openai
+# langchainhub
+# langsmith
+# huggingface-hub
+# llama-index
+# bitsandbytes
+# boto3
+# botocore
+# ollama
+# sentence-transformers
+# accelerate
+# matplotlib
+# Flask
+
