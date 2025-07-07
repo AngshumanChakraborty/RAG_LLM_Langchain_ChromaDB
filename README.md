@@ -28,11 +28,11 @@ Also select the python interpreter in the VSCode IDE. Press the Shift + Ctrl + P
 # How to run the RAG bot
 Open rag_implementation.py file with VSCode and hit the Run button or type the following command in the VSCode IDE terminal:
 
-python3 /workspaces/mercInterview/src/rag_implementation.py  
+> python3 /workspaces/mercInterview/src/rag_implementation.py  
 or  
-python3 /workspaces/mercInterview/src/rag_implementation.py --data_path "data/text" --file_type ".txt" --vectorstore_path "./sql_chroma_db" --model_id "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  
+> python3 /workspaces/mercInterview/src/rag_implementation.py --data_path "data/text" --file_type ".txt" --vectorstore_path "./sql_chroma_db" --model_id "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  
 or  
-put custom values
+> put custom values
 
 # Tools and models used
 
